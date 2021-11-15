@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCalc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link href="style.css" type='text/css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h2>Web<span>Calc</span></h2>
+    </header>
+    <section class='calcform'>
+        <div class='calcs'>
+            Number 1:
+            <input type='number' id="n1">
+            
+            <button type="button" id="adi" value="+" onclick="calc(this)">+</button>
+            <button  type="button" id="subt"  value="-"onclick="calc(this)">-</button>
+            <button  type="button" id="mult" value="*" onclick="calc(this)">x</button>
+            <button type="button" id="divi"  value="/" onclick="calc(this)">/</button>
+            Number 2:
+            <input type='number' id="n2" >
+            result:
+            <p class="result">
+            ---------
+            <br>
+            
+            </p>
+        </div>
+    </section>  
+    <script src="script.js"></script>
+</body>
+</html>
